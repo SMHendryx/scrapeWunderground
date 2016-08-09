@@ -1,9 +1,10 @@
 __author__ = 'seanhendryx'
 
-# This script extracts Solar Radiation in watts/square meter from wunderground within specified date range and saves to csv:
+# This script extracts Solar Radiation in watts/square meter from the wunderground API within specified date range and saves to csv:
 # 1st column is date stamp in yearmonthdayhourminute, 2nd column is solar radiation in watts per square meter
 
-#Example url to query API: http://api.wunderground.com/api/######################/history_20120101/q/AZ/Tucson.json
+# Example url to query API: http://api.wunderground.com/api/######################/history_20120101/q/AZ/Tucson.json
+# Your API should replace: ######################
 # Mt. Bigelow station ID: MQSLA3
 
 import json
